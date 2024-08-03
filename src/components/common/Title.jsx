@@ -7,4 +7,16 @@ const Title = ({ titleText }) => {
     )
 };
 
-export default Title;
+const SubTitle = ({ subTitleText }) => {
+    return (
+        <div className="sub-title flex items-center">
+            <div className="sub-dots-shape"></div>
+            <h5>{subTitleText}</h5>
+        </div>
+    )
+};
+
+export {
+    Title,
+    SubTitle
+};
