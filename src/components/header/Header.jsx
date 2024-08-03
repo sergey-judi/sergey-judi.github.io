@@ -12,7 +12,7 @@ const Header = () => {
                         <div className="flex items-end header-intro-wrapper">
                             <img src={AvatarSVG} alt="avatar" className="avatar" />
                             <h1 className="header-name text-white">
-                                Serhii Pereiaslavskyi
+                                Serhii Pereiaslavskyi,
                                 <br />
                                 Middle Java Developer
                             </h1>

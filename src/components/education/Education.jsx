@@ -1,5 +1,5 @@
 import EducationData from "../../constant/education-data";
-import Title from "../common/Title";
+import { Title } from "../common/Title";
 
 const Education = () => {
     return (

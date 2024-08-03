@@ -38,6 +38,10 @@ import Reading from "./images/reading.png";
 import Travelling from "./images/travelling.png";
 import Blogging from "./images/blogging.png";
 import Gaming from "./images/gaming.png";
+import Beewise from "./images/beewise.jpeg";
+import GR8Tech from "./images/gr8tech.jpeg";
+import ParimatchMon from "./images/parimatch-mon.jpg";
+import ParimatchTech from "./images/parimatch-tech.jpeg";
 
 export {
   AvatarPNG,
@@ -79,7 +83,11 @@ export {
   Travelling,
   Blogging,
   Gaming,
-  Telegram
+  Telegram,
+  Beewise,
+  GR8Tech,
+  ParimatchMon,
+  ParimatchTech
 };
 
 // https://github.com/gilbarbara/logos
