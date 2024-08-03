@@ -57,6 +57,18 @@
                 &:hover {
                     scale: 4;
                 }
+
+                @media(max-width: 1000px) {
+                    &:hover {
+                        scale: 3;
+                    }
+                }
+        
+                @media(max-width: 576px) {
+                    &:hover {
+                        scale: 2;
+                    }
+                }
             }
         }
 

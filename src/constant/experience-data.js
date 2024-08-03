@@ -44,6 +44,7 @@ const ExperienceData = [
     id: "exp-3",
     startDate: "October 2021",
     endDate: "January 2023",
+    position: "Java Developer",
     company: {
       logo: ParimatchTech,
       name: "Parimatch Tech",
@@ -124,7 +125,7 @@ const ExperienceData = [
       name: "Beewise",
       location: "Remote"
     },
-    description: "Manual EDA on AI model output for honeycombs extracted from smart hives.",
+    description: "Manual EDA on AI model output for honeycombs extracted from smart hives. Interacted with professional beekepers and management team from Israel.",
     techStack: [
       "Tableau"
     ]
