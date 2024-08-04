@@ -1,5 +1,6 @@
 import {
   Java,
+  Python,
   SpringBoot,
   SpringWebflux,
   SpringCloudGateway,
@@ -10,6 +11,7 @@ import {
   AWSLambda,
   AWSS3,
   ScyllaDB,
+  Redis,
   Kafka,
   Avro,
   JUnit,
@@ -20,15 +22,21 @@ import {
   Terraform,
   Cloudflare,
   GitLab,
+  GitHubWhite,
   Jira,
   Confluence,
-  Slack
+  Slack,
+  Agile
 } from "../assets/image";
 
 const SkillData = [
   {
     icon: Java,
     name: "Java"
+  },
+  {
+    icon: Python,
+    name: "Python"
   },
   {
     icon: SpringBoot,
@@ -71,6 +79,10 @@ const SkillData = [
     name: "ScyllaDB"
   },
   {
+    icon: Redis,
+    name: "Redis"
+  },
+  {
     icon: Kafka,
     name: "Kafka"
   },
@@ -111,6 +123,10 @@ const SkillData = [
     name: "GitLab"
   },
   {
+    icon: GitHubWhite,
+    name: "GitHub"
+  },
+  {
     icon: Jira,
     name: "Jira"
   },
@@ -121,6 +137,10 @@ const SkillData = [
   {
     icon: Slack,
     name: "Slack"
+  },
+  {
+    icon: Agile,
+    name: "Agile Scrum/Kanban"
   }
 ];
 

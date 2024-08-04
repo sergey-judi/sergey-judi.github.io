@@ -43,6 +43,7 @@ import GR8Tech from "./images/gr8tech.jpeg";
 import ParimatchMon from "./images/parimatch-mon.jpg";
 import ParimatchTech from "./images/parimatch-tech.jpeg";
 import Java from "./images/java.svg";
+import Python from "./images/python.webp";
 import SpringBoot from "./images/spring-boot.svg";
 import SpringWebflux from "./images/spring-webflux.png";
 import SpringCloudGateway from "./images/spring-cloud-gateway.png";
@@ -53,12 +54,14 @@ import AWSDynamoDB from "./images/dynamodb-icon.png";
 import AWSLambda from "./images/lambda-icon.png";
 import AWSS3 from "./images/s3-icon.png";
 import ScyllaDB from "./images/scylladb.webp";
+import Redis from "./images/redis.webp";
 import Kafka from "./images/kafka-white.png";
 import Avro from "./images/avro.png";
 import JUnit from "./images/junit.webp";
 import Mockito from "./images/mockito.png";
 import Testcontainers from "./images/testcontainers.png";
 import Docker from "./images/docker.png";
+import DockerCompose from "./images/docker-compose.png";
 import Kubernetes from "./images/kubernetes.png";
 import Terraform from "./images/terraform.png";
 import Cloudflare from "./images/cloudflare.png";
@@ -66,6 +69,7 @@ import GitLab from "./images/gitlab.webp";
 import Jira from "./images/jira.png";
 import Confluence from "./images/confluence.png";
 import Slack from "./images/slack.webp";
+import Agile from "./images/agile.png";
 import PMTechAcademy from "./images/pm-tech-academy-logo.png";
 
 export {
@@ -114,6 +118,7 @@ export {
   ParimatchMon,
   ParimatchTech,
   Java,
+  Python,
   SpringBoot,
   SpringWebflux,
   SpringCloudGateway,
@@ -124,12 +129,14 @@ export {
   AWSLambda,
   AWSS3,
   ScyllaDB,
+  Redis,
   Kafka,
   Avro,
   JUnit,
   Mockito,
   Testcontainers,
   Docker,
+  DockerCompose,
   Kubernetes,
   Terraform,
   Cloudflare,
@@ -137,6 +144,7 @@ export {
   Jira,
   Confluence,
   Slack,
+  Agile,
   PMTechAcademy
 };
 
