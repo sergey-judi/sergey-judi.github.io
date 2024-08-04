@@ -12,18 +12,14 @@
         margin-left: 24px;
         display: grid;
         list-style-type: none;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         row-gap: 12px;
         column-gap: 24px;
         padding: 16px 0;
 
         @media(max-width: 992px) {
-            grid-template-columns: repeat(2, 1fr);
-            column-gap: 20px;
-        }
-
-        @media(max-width: 576px) {
             grid-template-columns: 100%;
+            column-gap: 20px;
         }
     }
 

@@ -1,3 +1,4 @@
+import Certificate from "../../components/certificate/Certificate";
 import Education from "../../components/education/Education";
 import Experience from "../../components/experience/Experience";
 import Header from "../../components/header/Header";
@@ -10,6 +11,7 @@ const Home = () => {
             <Experience />
             <Education />
             <Skill />
+            <Certificate />
         </div>
     )
 }

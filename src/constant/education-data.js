@@ -6,7 +6,7 @@ import {
 
 const EducationData = [
     {
-        id: "edu-3",
+        id: "edu-2",
         icon: DiamondLgPink,
         course: "Master's degree, Computer Science",
         institution: "National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute', IASA​",
@@ -15,22 +15,13 @@ const EducationData = [
         endDate: "January 2024"
     },
     {
-        id: "edu-2",
+        id: "edu-1",
         icon: DiamondLgBlue,
         course: "Bachelor's degree, Computer Science",
         institution: "National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute', IASA​",
         degree: "Diploma",
         startDate: "September 2018",
         endDate: "June 2022"
-    },
-    {
-        id: "edu-1",
-        icon: DiamondLgGreen,
-        course: "Java & DevOps courses",
-        institution: "Parimatch Tech Academy",
-        degree: "Certificate",
-        startDate: "May 2021",
-        endDate: "September 2021"
     }
 ];
 
