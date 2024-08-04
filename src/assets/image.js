@@ -66,6 +66,7 @@ import GitLab from "./images/gitlab.webp";
 import Jira from "./images/jira.png";
 import Confluence from "./images/confluence.png";
 import Slack from "./images/slack.webp";
+import PMTechAcademy from "./images/pm-tech-academy-logo.png";
 
 export {
   AvatarPNG,
@@ -135,7 +136,8 @@ export {
   GitLab,
   Jira,
   Confluence,
-  Slack
+  Slack,
+  PMTechAcademy
 };
 
 // https://github.com/gilbarbara/logos
