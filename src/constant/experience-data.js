@@ -125,7 +125,7 @@ const ExperienceData = [
       name: "Beewise",
       location: "Remote"
     },
-    description: "Manual EDA on AI model output for honeycombs extracted from smart hives. Interacted with professional beekepers and management team from Israel.",
+    description: "Performed manual EDA on AI model output for honeycombs extracted from smart hives. Interacted with professional beekepers and management team from Israel.",
     techStack: [
       "Tableau"
     ]
