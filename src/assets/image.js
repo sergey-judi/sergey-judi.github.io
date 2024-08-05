@@ -71,6 +71,13 @@ import Confluence from "./images/confluence.png";
 import Slack from "./images/slack.webp";
 import Agile from "./images/agile.png";
 import PMTechAcademy from "./images/pm-tech-academy-logo.png";
+import Cars from "./images/cars.png";
+import Keyboard from "./images/keyboard.png";
+import Planning from "./images/planning.png";
+import Handmade from "./images/handmade.png";
+import Gym from "./images/gym.png";
+import Cycling from "./images/cycling.png";
+import Studying from "./images/studying.svg";
 
 export {
   AvatarPNG,
@@ -145,7 +152,14 @@ export {
   Confluence,
   Slack,
   Agile,
-  PMTechAcademy
+  PMTechAcademy,
+  Cars,
+  Keyboard,
+  Planning,
+  Handmade,
+  Gym,
+  Cycling,
+  Studying
 };
 
 // https://github.com/gilbarbara/logos
