@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container">
                 <div className="header-content grid items-center">
                     <div className="header-intro">
-                        <div className="flex items-end header-intro-wrapper">
+                        <div className="flex items-center header-intro-wrapper">
                             <img src={AvatarSVG} alt="avatar" className="avatar" />
                             <h1 className="header-name text-white">
                                 Serhii Pereiaslavskyi,
@@ -29,7 +29,7 @@ const Header = () => {
                                     <FaEnvelope size={13} />
                                 </span>
                                 <p className="info-item-text">
-                                    <span className="text">sergeypereyaslavskiy@gmail.com</span>
+                                    <span className="text">my.mail@gmail.com</span>
                                 </p>
                             </li>
                             <li className="grid items-start info-item">
