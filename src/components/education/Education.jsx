@@ -12,7 +12,7 @@ const Education = () => {
                         {
                             EducationData.map(
                                 (educationItem) => (
-                                    <EducationItem key={educationItem.id} item={educationItem} />
+                                    <EducationItem item={educationItem} />
                                 )
                             )
                         }
@@ -27,7 +27,7 @@ export default Education;
 
 const EducationItem = ({ item }) => {
     return (
-        <div className="education-item" key={item.id}>
+        <div className="education-item">
             <div className="edu-title flex items-center">
                 <img src={item.icon} alt={item.course} className="edu-icon" />
                 <h3 className="edu-course">{item.course}</h3>

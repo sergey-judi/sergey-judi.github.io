@@ -4,7 +4,7 @@ import Experience from "../../components/experience/Experience";
 import Header from "../../components/header/Header";
 import Skill from "../../components/skill/Skill";
 import Hobby from "../../components/hobby/Hobby";
-import BackgroundEffect from "../../components/BackgroundEffect/BackgroundEffect";
+import BackgroundEffect from "../../components/background-effect/BackgroundEffect";
 
 const Home = () => {
     return(

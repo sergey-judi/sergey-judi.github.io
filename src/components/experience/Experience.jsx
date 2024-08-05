@@ -11,7 +11,7 @@ const Experience = () => {
                         {
                             ExperienceData.map(
                                 (experienceItem) => (
-                                    <ExperienceItem key={experienceItem.id} item={experienceItem} />
+                                    <ExperienceItem item={experienceItem} />
                                 )
                             )
                         }
@@ -26,7 +26,7 @@ export default Experience;
 
 const ExperienceItem = ({ item }) => {
     return (
-        <div className="experience-item" key={item.id}>
+        <div className="experience-item">
             <div className="exp-time flex items-center">
                 <span className="start-time">{item.startDate}</span>
                 <span>-</span>
@@ -50,7 +50,7 @@ const ExperienceItem = ({ item }) => {
                     {
                         item.subExperience && item.subExperience.map(
                             (subExperienceItem) => (
-                                <SubExperienceItem key={subExperienceItem.id} subItem={subExperienceItem} />
+                                <SubExperienceItem subItem={subExperienceItem} />
                             )
                         )
                     }
@@ -80,7 +80,7 @@ const ExperienceItem = ({ item }) => {
 
 const SubExperienceItem = ({ subItem }) => {
     return (
-        <div className="sub-experience-item" key={subItem.id}>
+        <div className="sub-experience-item">
             <div className="sub-exp-time flex items-center">
                 <span className="start-time">{subItem.startDate}</span>
                 <span>-</span>

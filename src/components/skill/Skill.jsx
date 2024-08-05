@@ -26,7 +26,7 @@ export default Skill;
 
 const SkillItem = ({ skill }) => {
     return (
-        <div className="skill-item text-center flex-col items-center justify-center" key={skill.id}>
+        <div className="skill-item text-center flex-col items-center justify-center">
             <div className="skill-icon">
                 <img src={skill.icon} alt="skill-icon" />
             </div>

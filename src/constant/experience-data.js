@@ -7,7 +7,6 @@ import {
 
 const ExperienceData = [
   {
-    id: "exp-4",
     startDate: "February 2023",
     position: "Middle Java Developer",
     company: {
@@ -41,7 +40,6 @@ const ExperienceData = [
     ]
   },
   {
-    id: "exp-3",
     startDate: "October 2021",
     endDate: "January 2023",
     position: "Java Developer",
@@ -52,19 +50,16 @@ const ExperienceData = [
     },
     subExperience: [
       {
-        id: "exp-2-3",
         startDate: "October 2022",
         endDate: "January 2023",
         position: "Middle Java Developer",
       },
       {
-        id: "exp-2-2",
         startDate: "January 2022",
         endDate: "September 2022",
         position: "Junior Java Developer",
       },
       {
-        id: "exp-2-1",
         startDate: "October 2021",
         endDate: "December 2021",
         position: "Intern Java Developer",
@@ -93,7 +88,6 @@ const ExperienceData = [
     ]
   },
   {
-    id: "exp-2",
     startDate: "August 2021",
     endDate: "September 2021",
     position: "Java Developer",
@@ -116,7 +110,6 @@ const ExperienceData = [
     ]
   },
   {
-    id: "exp-1",
     startDate: "March 2021",
     endDate: "August 2021",
     position: "AI Trainee",
