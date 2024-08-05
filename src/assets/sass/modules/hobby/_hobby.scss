@@ -5,9 +5,21 @@
     }
 
     .hobbies-list {
+        display: grid;
+        list-style-type: none;
+        grid-template-columns: repeat(9, 1fr);
         padding: 16px 0;
         margin-left: 24px;
         column-gap: 40px;
+
+        @media(max-width: 1200px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media(max-width: 800px) {
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 24px;
+        }
     }
 
     .hobbies-item {
