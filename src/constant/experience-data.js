@@ -65,7 +65,7 @@ const ExperienceData = [
         position: "Intern Java Developer",
       }
     ],
-    description: "Supported existing services and developed new ones from scratch using new technology & approaches. Migrated existing services from Java 11 to Java 17 and Spring Boot 2 to Spring Boot 3 with the corresponding challenges. Developed integration supposed to whitelist and manage DNS records via Cloudflare. Interacted with external game providers.",
+    description: "Supported existing services and developed new ones from scratch using new technology and approaches. Migrated existing services from Java 11 to Java 17 and Spring Boot 2 to Spring Boot 3 with the corresponding challenges. Developed integration supposed to whitelist IPs and manage DNS records via Cloudflare. Interacted with external game providers.",
     techStack: [
       "Java 11",
       "Java 17",

@@ -33,7 +33,7 @@ const CertificateData = [
   {
     icon: Coursera,
     provider: "Coursera",
-    course: "Java & DevOps",
+    course: "Python programming basics",
     issueDate: "July 2020"
   }
 ];
