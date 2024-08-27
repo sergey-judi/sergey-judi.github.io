@@ -18,7 +18,7 @@ const Header = () => {
                             </h1>
                         </div>
                         <p className="header-text text text-white">
-                            Some text about me
+                            Using Java as my primary language to write reliable and human-friendly code, I also leverage Python to simplify supportive workflows. I am fond of thorough integration testing, maximizing test coverage and ensuring the quality of what I do. I enjoy pushing my limits, embracing challenges, being disciplined, focused and curious.
                         </p>
                     </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
                                     <FaEnvelope size={13} />
                                 </span>
                                 <p className="info-item-text">
-                                    <span className="text">my.mail@gmail.com</span>
+                                    <span className="text">mail.pereiaslavskyi@gmail.com</span>
                                 </p>
                             </li>
                             <li className="grid items-start info-item">
