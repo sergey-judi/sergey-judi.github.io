@@ -2,12 +2,38 @@ import {
   Beewise,
   GR8Tech,
   ParimatchMon,
-  ParimatchTech
+  ParimatchTech,
+  Softsich
 } from "../assets/image";
 
 const ExperienceData = [
   {
+    startDate: "November 2024",
+    position: "Strong Middle Java Developer",
+    company: {
+      logo: Softsich,
+      name: "Softsich",
+      location: "Remote | Kyiv, Ukraine"
+    },
+    description: "Developing functionality from scratch, interacting with frontend team to provide maximum API flexibility & reusage, adapting existing implementation to fit game providers with various API requirements, implementing fluent logging approach in terms of distributed system",
+    techStack: [
+      "Java 21",
+      "Spring Boot",
+      "Spring Cloud Gateway",
+      "Spring Data",
+      "Maven",
+      "MongoDB",
+      "PostgreSQL",
+      "Kafka",
+      "JUnit",
+      "Mockito",
+      "GitLab",
+      "Docker"
+    ]
+  },
+  {
     startDate: "February 2023",
+    endDate: "November 2024",
     position: "Middle Java Developer",
     company: {
       logo: GR8Tech,

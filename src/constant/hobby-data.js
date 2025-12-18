@@ -7,7 +7,10 @@ import {
     Handmade,
     Gym,
     Cycling,
-    Studying
+    Studying,
+    Sightseeing,
+    Theatre,
+    Ukraine
 } from "../assets/image";
 
 const HobbyData = [
@@ -24,10 +27,6 @@ const HobbyData = [
         name: "Gym",
     },
     {
-        icon: Studying,
-        name: "Studying",
-    },
-    {
         icon: Planning,
         name: "Planning",
     },
@@ -36,16 +35,20 @@ const HobbyData = [
         name: "Handmade",
     },
     {
-        icon: Reading,
+        icon: Studying,
         name: "Reading",
     },
     {
-        icon: Keyboard,
-        name: "Mechanical keyboards",
+        icon: Sightseeing,
+        name: "Sightseeing",
     },
     {
-        icon: Cycling,
-        name: "Cycling",
+        icon: Theatre,
+        name: "Theatre",
+    },
+    {
+        icon: Ukraine,
+        name: "Ukraine",
     }
 ]
 

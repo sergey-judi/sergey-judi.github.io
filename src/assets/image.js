@@ -24,6 +24,7 @@ import Beewise from "./images/beewise.jpeg";
 import GR8Tech from "./images/gr8tech.jpeg";
 import ParimatchMon from "./images/parimatch-mon.jpg";
 import ParimatchTech from "./images/parimatch-tech.jpeg";
+import Softsich from "./images/softsich.jpeg";
 
 import Java from "./images/java.svg";
 import Python from "./images/python.webp";
@@ -31,6 +32,7 @@ import SpringBoot from "./images/spring-boot.svg";
 import SpringWebflux from "./images/spring-webflux.png";
 import SpringCloudGateway from "./images/spring-cloud-gateway.png";
 import SpringCloudStream from "./images/spring-cloud-stream.png";
+import SpringData from "./images/spring-data.png";
 import Gradle from "./images/gradle-light.png";
 import Maven from "./images/maven.png";
 import AWSDynamoDB from "./images/dynamodb-icon.png";
@@ -38,6 +40,9 @@ import AWSLambda from "./images/lambda-icon.png";
 import AWSS3 from "./images/s3-icon.png";
 import ScyllaDB from "./images/scylladb.webp";
 import Redis from "./images/redis.webp";
+import MongoDB from "./images/mongodb.svg";
+import PostgreSQL from "./images/postgresql.png";
+import Liquibase from "./images/liquibase.png";
 import Kafka from "./images/kafka-white.png";
 import Avro from "./images/avro.png";
 import JUnit from "./images/junit.webp";
@@ -66,6 +71,9 @@ import Handmade from "./images/handmade.png";
 import Gym from "./images/gym.png";
 import Cycling from "./images/cycling.png";
 import Studying from "./images/studying.svg";
+import Sightseeing from "./images/sightseeing.png";
+import Theatre from "./images/theatre.png";
+import Ukraine from "./images/Ukraine.png";
 
 export {
   AvatarPNG,
@@ -93,6 +101,7 @@ export {
   GR8Tech,
   ParimatchMon,
   ParimatchTech,
+  Softsich,
 
   Java,
   Python,
@@ -100,6 +109,7 @@ export {
   SpringWebflux,
   SpringCloudGateway,
   SpringCloudStream,
+  SpringData,
   Gradle,
   Maven,
   AWSDynamoDB,
@@ -107,6 +117,9 @@ export {
   AWSS3,
   ScyllaDB,
   Redis,
+  MongoDB,
+  PostgreSQL,
+  Liquibase,
   Kafka,
   Avro,
   JUnit,
@@ -135,7 +148,10 @@ export {
   Handmade,
   Gym,
   Cycling,
-  Studying
+  Studying,
+  Sightseeing,
+  Theatre,
+  Ukraine
 };
 
 // https://github.com/gilbarbara/logos

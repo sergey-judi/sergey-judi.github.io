@@ -26,7 +26,11 @@ import {
   Jira,
   Confluence,
   Slack,
-  Agile
+  Agile,
+  MongoDB,
+  PostgreSQL,
+  Liquibase,
+  SpringData
 } from "../assets/image";
 
 const SkillData = [
@@ -55,6 +59,10 @@ const SkillData = [
     name: "Spring Cloud Stream"
   },
   {
+    icon: SpringData,
+    name: "Spring Data"
+  },
+  {
     icon: Gradle,
     name: "Gradle"
   },
@@ -81,6 +89,18 @@ const SkillData = [
   {
     icon: Redis,
     name: "Redis"
+  },
+  {
+    icon: MongoDB,
+    name: "MongoDB"
+  },
+  {
+    icon: PostgreSQL,
+    name: "PostgreSQL"
+  },
+  {
+    icon: Liquibase,
+    name: "Liquibase"
   },
   {
     icon: Kafka,
