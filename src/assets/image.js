@@ -25,6 +25,7 @@ import GR8Tech from "./images/gr8tech.jpeg";
 import ParimatchMon from "./images/parimatch-mon.jpg";
 import ParimatchTech from "./images/parimatch-tech.jpeg";
 import Softsich from "./images/softsich.jpeg";
+import EightTech from "./images/8tech.jpeg";
 
 import Java from "./images/java.svg";
 import Python from "./images/python.webp";
@@ -102,6 +103,7 @@ export {
   ParimatchMon,
   ParimatchTech,
   Softsich,
+  EightTech,
 
   Java,
   Python,

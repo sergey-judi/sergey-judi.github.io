@@ -14,7 +14,7 @@ const Header = () => {
                             <h1 className="header-name text-white">
                                 Serhii Pereiaslavskyi,
                                 <br />
-                                Middle Java Developer
+                                Senior Java Developer
                             </h1>
                         </div>
                         <p className="header-text text text-white">

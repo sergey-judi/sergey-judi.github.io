@@ -3,19 +3,30 @@ import {
   GR8Tech,
   ParimatchMon,
   ParimatchTech,
-  Softsich
+  EightTech
 } from "../assets/image";
 
 const ExperienceData = [
   {
     startDate: "November 2024",
-    position: "Strong Middle Java Developer",
+    position: "Senior Java Developer",
     company: {
-      logo: Softsich,
-      name: "Softsich",
+      logo: EightTech,
+      name: "8tech",
       location: "Remote | Kyiv, Ukraine"
     },
-    description: "Developing functionality from scratch, interacting with frontend team to provide maximum API flexibility & reusage, adapting existing implementation to fit game providers with various API requirements, implementing fluent logging approach in terms of distributed system",
+    subExperience: [
+      {
+        startDate: "December 2025",
+        position: "Senior Java Developer",
+      },
+      {
+        startDate: "November 2024",
+        endDate: "November 2025",
+        position: "Strong Middle Java Developer",
+      }
+    ],
+    description: "Developing functionality from scratch, interacting with frontend team to provide maximum API flexibility & reusage, adapting existing implementation to fit game providers with various API requirements, implementing fluent logging approach in terms of distributed system. Designed API in terms of microservice architecture. Leaded integration process for the newcomers. Completely refactored existing system to fit product backlog - considering backward compatibility for breaking changes.",
     techStack: [
       "Java 21",
       "Spring Boot",
@@ -24,6 +35,7 @@ const ExperienceData = [
       "Maven",
       "MongoDB",
       "PostgreSQL",
+      "Redis",
       "Kafka",
       "JUnit",
       "Mockito",
